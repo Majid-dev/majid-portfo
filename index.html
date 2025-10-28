@@ -1,80 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Majid Karimi | DevOps Engineer</title>
-    <link rel="icon" type="image/png" href="assets/favicon.png" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Majid Karimi | DevOps Engineer</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/hero.png" alt="DevOps Banner" class="hero-image">
+    <div class="overlay">
+      <h1>Majid Karimi</h1>
+      <h2>DevOps & Platform Engineer</h2>
+      <p>Building scalable, reliable, and automated cloud platforms.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </header>
 
-  <body>
-    <header>
-      <nav>
-        <h1>Majid Karimi</h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section id="hero">
-      <div class="hero-content">
-        <h2>DevOps Engineer</h2>
-        <p>Building scalable, automated, and observable systems with passion for cloud-native technologies.</p>
-        <a href="#projects" class="btn">View My Work</a>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <h2>About Me</h2>
+  <main>
+    <section id="about">
+      <img src="assets/Green2.png" alt="Pofile" class="profile-pic">
+      <h3>About Me</h3>
       <p>
-        I'm a DevOps and Platform Engineer with experience in Kubernetes, Terraform, CI/CD, and cloud-native solutions. 
-        I enjoy solving complex deployment challenges and building developer-friendly infrastructure.
+        I’m a DevOps Engineer specializing in cloud-native technologies, CI/CD automation, and Kubernetes-based infrastructure.
+        My focus is on delivering efficient, secure, and observable systems that empower developers and businesses to ship faster.
       </p>
     </section>
 
-    <section id="skills" class="section">
-      <h2>Core Skills</h2>
-      <div class="skills-grid">
-        <div class="skill">Kubernetes</div>
-        <div class="skill">Terraform</div>
-        <div class="skill">Azure</div>
-        <div class="skill">Docker</div>
-        <div class="skill">GitHub Actions</div>
-        <div class="skill">Prometheus / Grafana</div>
-        <div class="skill">ArgoCD</div>
-        <div class="skill">Linux</div>
-      </div>
+    <section id="skills">
+      <h3>Core Skills</h3>
+      <ul class="skills">
+        <li><div class="skills-item">Docker / Kubernetes</div></li>
+        <li><div class="skills-item">AWS / Azure / GCP</div></li>
+        <li><div class="skills-item">Terraform / Ansible</div></li>
+        <li><div class="skills-item">Vault / Traefik / NGINX</div></li>
+        <li><div class="skills-item">Observability (EFK, Prometheus, Grafana, Jaeger)</div></li>
+        <li><div class="skills-item">CI/CD (GitLab, GitHub Actions, ArgoCD)</div></li>
+      </ul>
     </section>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project">
-          <h3>DevOpsControl</h3>
-          <p>A lightweight PaaS for Iranian developers using Kubernetes, GitOps, and cloud-native tools.</p>
-          <a href="https://github.com/majidkarimi/devopscontrol" target="_blank">View on GitHub →</a>
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="projects">
+        <div class="card">
+          <h4>DevOpsControl</h4>
+          <p>A lightweight PaaS for Iranian developers built using Kubernetes, GitOps, and Go backend (Fiber).</p>
+          <a href="#" target="_blank">View on GitHub</a>
         </div>
-        <div class="project">
-          <h3>Observability Stack</h3>
-          <p>Full-stack observability with Prometheus, Loki, and Jaeger integrated with AI anomaly detection.</p>
-          <a href="https://github.com/majidkarimi" target="_blank">Explore More →</a>
+        <div class="card">
+          <h4>Policy Review System</h4>
+          <p>A Python-based policy review engine for Kubernetes ensuring compliance before deployment.</p>
+          <a href="#" target="_blank">View on GitHub</a>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Get In Touch</h2>
-      <p>Let's connect and talk about cloud, DevOps, or platform engineering.</p>
-      <a href="mailto:majidkarimi.devops@gmail.com" class="btn">Email Me</a>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Let’s connect — I’m open to collaborations and job opportunities in Sweden or remote positions.</p>
+      <a href="mailto:majidkarimi.devops@gmail.com" class="btn">📩 Email Me</a>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/majidkarimi-devops" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/majidkarimi-devops" target="_blank">GitHub</a>
+      </div>
     </section>
+  </main>
 
-    <footer>
-      <p>© 2025 Majid Karimi | Built with 💙 for the cloud</p>
-    </footer>
-  </body>
+  <footer>
+    <p>© 2025 Majid Karimi. Built with 💙 and GitHub Pages.</p>
+  </footer>
+</body>
 </html>
